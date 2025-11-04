@@ -19,4 +19,9 @@ j.add_entry('I cried today.')
 j.add_entry('I ate a bug.')
 print(f'Journal entries:\n{j}')
 
+```
+The journal’s single responsibility is to store and manage entries.
+It can add, remove, and display entries.
+So far, it follows SRP.
+
 
