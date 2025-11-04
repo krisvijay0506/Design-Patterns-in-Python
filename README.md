@@ -8,7 +8,7 @@ class Journal:
         self.count = 0
     def add_entry(self,text):
         self.count += 1
-        self.entriesa.append(f'{self.count}: {text}')
+        self.entries.append(f'{self.count}: {text}')
     def remove_entry(self,pos):
         del self.entries[pos]
     def __str__(self):
