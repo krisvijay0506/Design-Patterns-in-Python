@@ -15,6 +15,8 @@ class Journal:
         return '\n'.join(self.entries)
 
 j = Journal()
-j.add_entry()
+j.add_entry('I cried today.')
+j.add_entry('I ate a bug.')
+print(f'Journal entries:\n{j}')
 
 
